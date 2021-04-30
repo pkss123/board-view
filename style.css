@@ -1,0 +1,107 @@
+#header {
+    display: flex;
+    justify-content: space-between;
+    
+    color: #bfe2d3;
+    font-size: 1.3em;
+}
+
+body {
+        width: 1000px;
+        margin: 0 auto;
+}
+
+#menu {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bolder;
+}
+
+#main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#main > img {
+    width: 100%;
+}
+
+#footer {
+    text-align: center;
+}
+
+fieldset {
+	width: 300px;
+	margin: 0 auto;
+	text-align: center;
+	
+	border: 3px solid #bfe2d3;
+}
+
+fieldset input {
+	border: 0px;
+	outline: none;
+	border-bottom: 1px solid #e5e5e5;
+	
+}
+
+.button {
+	border: 0px;
+	
+	background-color: #bfe2d3;
+	
+	padding: 5px 15px;
+	border-radius: 15px;
+	
+	font-weight: bolder;
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#isLogin {
+	text-align: right;
+	font-size: 1.2em;
+	font-weight: bolder;
+}
+
+#contents{
+	width: 90%;
+	margin: 0 auto;
+	padding: 15px;
+	border: 5px solid #bfe2d3;
+    font-size: 1-2em;
+}
+
+#contens hr{
+    border:1px solid #bfe2d3;
+}
+
+#update{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#update button{
+    padding: 10px 15px;
+    font-weight: bolder;
+    border: 0;
+    background-color: #bfe2d3;
+    cursor: pointer;
+}
+
+tr:nth-child(n + 2):hover {
+	background-color: grey;
+}
